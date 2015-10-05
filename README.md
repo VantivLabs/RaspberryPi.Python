@@ -8,7 +8,7 @@ Infrastructure in the financial world is mind numbing, and detecting issues quic
 
 This code is going to integrate to the Vantiv platform, using the Mercury SOAP API, and periodically send a transaction.  The code will then run some quick analysis on the results and flash a green or red LED based on that analysis.  As you will see the analysis is trivial in the code, but this is a small step to what could be an actual product.  Think about the ability to have a low cost processing platform within each merchant environment...the opportunity is vast!
 
-You might notice that there is both a Python repository and a C# repository (https://github.com/MercuryPay/RaspberryPi.CSharp).  Both will perform the same work, but this repository is built on top of the Raspbian OS while the C# code is built on top of Windows IoT.  Arguments can be made for which one is better but the resulting conclusion will be different for everyone.  The good news is that there is sample code for both so you get a jumpstart regardless of which option you choose.
+You might notice that there is both a Python repository and a C# repository (https://github.com/VantivLabs/RaspberryPi.CSharp).  Both will perform the same work, but this repository is built on top of the Raspbian OS while the C# code is built on top of Windows IoT.  Arguments can be made for which one is better but the resulting conclusion will be different for everyone.  The good news is that there is sample code for both so you get a jumpstart regardless of which option you choose.
 
 We will not add images to this repo, mainly because that would be redundant, which makes for a slightly more boring repo, but if you want to see the images head on over to the C# repo!
 
@@ -17,11 +17,11 @@ We will not add images to this repo, mainly because that would be redundant, whi
 
 Each team (limited to the first ten teams) that is interested in accepting the Raspberry Pi Vantiv challenge will receive this kit: http://www.canakit.com/raspberry-pi-starter-ultimate-kit.html.
 
-Please see the corresponding entry in the C# repository for more:  https://github.com/MercuryPay/RaspberryPi.CSharp#unboxing-the-raspberry-pi
+Please see the corresponding entry in the C# repository for more:  https://github.com/VantivLabs/RaspberryPi.CSharp#unboxing-the-raspberry-pi
 
 #Setup
 
-Please see the corresponding entry in the C# repository:  https://github.com/MercuryPay/RaspberryPi.CSharp#setup
+Please see the corresponding entry in the C# repository:  https://github.com/VantivLabs/RaspberryPi.CSharp#setup
 
 The first time the device boots up you will need to configure the WiFi USB dongle.  As mentioned in the C# repository, Windows IoT only works with the Raspberry Pi WiFi dongle, but Raspbian will work with the WiFi dongle that is shipped in the CanaKit, so you're in luck if you choose the Raspbian build because it will work out of the box. Initially you will need to  boot with the USB keyboard/mouse and HDMI cable so that you can setup the wireless. Login to the Raspberry Pi, run startx which will boot the graphical UI, and then configure the wireless.  The CanaKit quickstart guide provides all of the necessary information.  After that setup is complete you can use any SSH utility (PUTTY from windows) to access the Raspberry Pi.
 
@@ -45,7 +45,7 @@ Not much was mentioned above about the hardware but it should be straightforward
 
 #Good Things to Know
 
-Please see the corresponding entry in the c# repository:  https://github.com/MercuryPay/RaspberryPi.CSharp#good-things-to-know
+Please see the corresponding entry in the c# repository:  https://github.com/VantivLabs/RaspberryPi.CSharp#good-things-to-know
 
 #Useful Links
 
@@ -53,4 +53,4 @@ https://github.com/InitialState/piot-101/wiki -- great tutorial on getting every
 
 #Other Cool Things
 
-Please see the corresponding entry in the c# repository:  https://github.com/MercuryPay/RaspberryPi.CSharp#other-cool-things
+Please see the corresponding entry in the c# repository:  https://github.com/VantivLabs/RaspberryPi.CSharp#other-cool-things
