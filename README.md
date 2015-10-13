@@ -54,3 +54,5 @@ https://github.com/InitialState/piot-101/wiki -- great tutorial on getting every
 #Other Cool Things
 
 Please see the corresponding entry in the c# repository:  https://github.com/VantivLabs/RaspberryPi.CSharp#other-cool-things
+
+Raspberry Pi, Windows, Windows IoT, Visual Studio, and CanaKit are registered or unregistered marks belonging to their respective owners who are unaffiliated with and do not endorse or sponsor Vantiv, and Vantiv likewise does not endorse or sponsor Raspberry Pi, Windows, Windows IoT, Visual Studio, or CanaKit.
