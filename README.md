@@ -1,6 +1,6 @@
 # RaspberryPi.Python
 
-#Overview
+# Overview
 
 This repository will provide information about the Raspberry Pi specifically for those that are going to accept the Vantiv API challenge at Money20/20.  There will be some interesting challenges with these hardware components but we believe without challenge there is no reward.  Check out these repositories for code to get you jumpstarted.
 
@@ -13,13 +13,13 @@ You might notice that there is both a Python repository and a C# repository (htt
 We will not add images to this repo, mainly because that would be redundant, which makes for a slightly more boring repo, but if you want to see the images head on over to the C# repo!
 
 
-#Unboxing
+# Unboxing
 
 Each team (limited to the first ten teams) that is interested in accepting the Raspberry Pi Vantiv challenge will receive this kit: http://www.canakit.com/raspberry-pi-starter-ultimate-kit.html.
 
 Please see the corresponding entry in the C# repository for more:  https://github.com/VantivLabs/RaspberryPi.CSharp#unboxing-the-raspberry-pi
 
-#Setup
+# Setup
 
 Please see the corresponding entry in the C# repository:  https://github.com/VantivLabs/RaspberryPi.CSharp#setup
 
@@ -27,7 +27,7 @@ The first time the device boots up you will need to configure the WiFi USB dongl
 
 When you are logged in, working with the Pi is mostly the same as working with any other Linux variant.
 
-#Writing Code
+# Writing Code
 
 There are two files in the repo:
 
@@ -39,23 +39,23 @@ As with C#, this is not the most elegant code but it gets the job done.  There a
 
 There certainly seems to be less code written for Python vs. C# version but that might simply be based on lack of refactoring.  Additionally the Python code (or Raspbian itself) performs better than the code written on Windows IoT.  Again that is a simple observation and might be comparing apples to oranges, but please feel free to run both and provide feedback.   If there is anything we love more than hacking with hardware, it's hacking with hardware with hundreds of our friends!
 
-#Hardware
+# Hardware
 
 Not much was mentioned above about the hardware but it should be straightforward to setup the two LEDs, two resistors, and wires following the pictures.  If the pictures are not good enough have a look at the tutorials below in 'Useful Links'.
 
-#Good Things to Know
+# Good Things to Know
 
 Please see the corresponding entry in the c# repository:  https://github.com/VantivLabs/RaspberryPi.CSharp#good-things-to-know
 
-#Useful Links
+# Useful Links
 
 https://github.com/InitialState/piot-101/wiki -- great tutorial on getting everything up and running, it applies even more to Raspbian than Windows IoT so we will make an exception and list this one twice.
 
-#Other Cool Things
+# Other Cool Things
 
 Please see the corresponding entry in the c# repository:  https://github.com/VantivLabs/RaspberryPi.CSharp#other-cool-things
 
-#Legal Stuff
+# Legal Stuff
 
 [Privacy Policy, Copyright Notices, and Terms of Use](https://vantiv.com/privacy-policy)
 
