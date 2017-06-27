@@ -2,7 +2,7 @@
 
 # Overview
 
-This repository will provide information about the Raspberry Pi specifically for those that are going to accept the Vantiv API challenge at Money20/20.  There will be some interesting challenges with these hardware components but we believe without challenge there is no reward.  Check out these repositories for code to get you jumpstarted.
+This repository provides information on the Raspberry Pi for a challenge Vantiv sponsored at Money20/20 but we find it is an excellent reference for generally learning how to program and integrate to a payment API.
 
 Infrastructure in the financial world is mind numbing, and detecting issues quickly is a high priority for platform teams.  What if we could send each one of the merchants, or financial institutions, a cheap device that would help us detect processing issues before they happened?  Enter the Raspberry Pi!
 
@@ -15,7 +15,7 @@ We will not add images to this repo, mainly because that would be redundant, whi
 
 # Unboxing
 
-Each team (limited to the first ten teams) that is interested in accepting the Raspberry Pi Vantiv challenge will receive this kit: http://www.canakit.com/raspberry-pi-starter-ultimate-kit.html.
+This repository leverages this kit: http://www.canakit.com/raspberry-pi-starter-ultimate-kit.html.
 
 Please see the corresponding entry in the C# repository for more:  https://github.com/VantivLabs/RaspberryPi.CSharp#unboxing-the-raspberry-pi
 
